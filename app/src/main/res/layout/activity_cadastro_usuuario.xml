@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroUsuuarioActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro Usuario"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="16dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="829dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:hint="Nome Completo"
+        android:padding="18dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="833dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:hint="E-mail"
+        android:padding="18dp" />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="837dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:hint="Senha"
+        android:padding="18dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro uusuario"
+        android:layout_margin="16dp"/>
+
+  </LinearLayout>
